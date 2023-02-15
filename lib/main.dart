@@ -1,7 +1,11 @@
 import 'package:flutter/material.dart';
+import 'package:game_wiki_app/firebase_options.dart';
 import 'package:game_wiki_app/view/authentication_screen.dart';
+import 'package:firebase_core/firebase_core.dart';
 
-void main() {
+void main() async{
+  WidgetsFlutterBinding.ensureInitialized();
+  await Firebase.initializeApp();
   runApp(const MyApp());
 }
 

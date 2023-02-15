@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.game_wiki_app-mergeDebugResources-9:/values-night-v8/values-night-v8.xml",
+            "outputFile": "com.example.game_wiki_app-mergeDebugResources-15:/values-night-v8/values-night-v8.xml",
             "map": [
                 {
                     "source": "/Users/sandro/Desktop/2022/25MOB/Flutter/GameWikiApp/android/app/src/main/res/values-night/styles.xml",

@@ -1,30 +1,43 @@
 
+
+import 'dart:js';
+
+import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:game_wiki_app/view/home_screen.dart';
 import 'package:game_wiki_app/widgets/rounded_textfield.dart';
 
-class AuthScreen extends StatelessWidget {
+class AuthScreen extends StatefulWidget {
   const AuthScreen({super.key});
   static String id = "auth_screen";
 
+
+
+  @override
+  State<AuthScreen> createState() => _AuthScreenState();
+}
+
+class _AuthScreenState extends State<AuthScreen> {
+
+  final _emailController = TextEditingController();
+  final _passwordController = TextEditingController();
+
   @override
   Widget build(BuildContext context) {
-    
+
     return Scaffold(
       body: SafeArea(
         child: Center(
           child: SingleChildScrollView(
             child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
           children: [
             Text('Game Wiki App'),
-            
-            RoudedButton(text: "E-mail", optionObscure: false),
-            RoudedButton(text: "Senha", optionObscure: true),
 
-            TextButton(onPressed: () {
-            
-            }, 
+            RoudedButton(text: "E-mail", optionObscure: false, controller: _emailController),
+            RoudedButton(text: "Senha", optionObscure: true, controller: _passwordController),
+
+            TextButton(onPressed: authentication,
             child: const Text(
               "Login",
               style: TextStyle(
@@ -38,10 +51,50 @@ class AuthScreen extends StatelessWidget {
             ),
             )
           ],
-          )  
+          )
           )
         )
       ),
     );
+  }
+  authentication() async{
+    try {
+      UserCredential userCredential = await FirebaseAuth.instance.signInWithEmailAndPassword(email: _emailController.text, password: _passwordController.text);
+
+      if(userCredential != null) {
+        Navigator.pushReplacement(
+            context as BuildContext,
+            MaterialPageRoute(builder: (context) => const HomeScreen())
+        );
+
+      }
+    } on FirebaseException catch(e){
+      print(e.code);
+      if (e.code == 'user-not-found') {
+        ScaffoldMessenger.of(context as BuildContext).showSnackBar(
+          const SnackBar(
+              content: Text(
+                  'Usuário não encontrado',
+                textAlign: TextAlign.center,
+                style: TextStyle(
+                  fontSize: 20
+                ),
+              ),
+          ),
+        );
+      } else if (e.code == 'wrong-password' || e.code == 'invalid-email') {
+        ScaffoldMessenger.of(context as BuildContext).showSnackBar(
+          const SnackBar(
+              content: Text(
+                  'Usuário ou Senha Incorretos',
+                  textAlign: TextAlign.center,
+                  style: TextStyle(
+                    fontSize: 20
+                  ),
+              )
+          ),
+        );
+      }
+    }
   }
 }

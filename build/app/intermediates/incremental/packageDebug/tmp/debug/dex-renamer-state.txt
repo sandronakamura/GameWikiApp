@@ -1,0 +1,4 @@
+#Wed Feb 15 10:30:39 BRT 2023
+base.0=/Users/sandro/Desktop/2022/25MOB/Flutter/GameWikiApp/build/app/intermediates/dex/debug/mergeDexDebug/classes.dex
+renamed.0=classes.dex
+path.0=classes.dex

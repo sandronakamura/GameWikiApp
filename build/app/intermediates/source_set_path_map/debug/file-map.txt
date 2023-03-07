@@ -18,4 +18,5 @@ com.example.game_wiki_app-mergeDebugResources-16 /Users/sandro/Desktop/2022/25MO
 com.example.game_wiki_app-merged_res-17 /Users/sandro/Desktop/2022/25MOB/Flutter/GameWikiApp/build/app/intermediates/merged_res/debug
 com.example.game_wiki_app-packaged_res-18 /Users/sandro/Desktop/2022/25MOB/Flutter/GameWikiApp/build/firebase_auth/intermediates/packaged_res/debug
 com.example.game_wiki_app-packaged_res-19 /Users/sandro/Desktop/2022/25MOB/Flutter/GameWikiApp/build/firebase_core/intermediates/packaged_res/debug
-com.example.game_wiki_app-packaged_res-20 /Users/sandro/Desktop/2022/25MOB/Flutter/GameWikiApp/build/google_sign_in_android/intermediates/packaged_res/debug
+com.example.game_wiki_app-packaged_res-20 /Users/sandro/Desktop/2022/25MOB/Flutter/GameWikiApp/build/flutter_native_splash/intermediates/packaged_res/debug
+com.example.game_wiki_app-packaged_res-21 /Users/sandro/Desktop/2022/25MOB/Flutter/GameWikiApp/build/google_sign_in_android/intermediates/packaged_res/debug

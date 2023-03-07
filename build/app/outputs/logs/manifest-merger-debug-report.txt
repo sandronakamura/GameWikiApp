@@ -62,6 +62,7 @@ MERGED from /Users/sandro/Desktop/2022/25MOB/Flutter/GameWikiApp/android/app/src
 MERGED from [:firebase_auth] /Users/sandro/Desktop/2022/25MOB/Flutter/GameWikiApp/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-17:12
 MERGED from [:firebase_core] /Users/sandro/Desktop/2022/25MOB/Flutter/GameWikiApp/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-17:12
 MERGED from [:google_sign_in_android] /Users/sandro/Desktop/2022/25MOB/Flutter/GameWikiApp/build/google_sign_in_android/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:flutter_native_splash] /Users/sandro/Desktop/2022/25MOB/Flutter/GameWikiApp/build/flutter_native_splash/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
 MERGED from [androidx.multidex:multidex:2.0.0] /Users/sandro/.gradle/caches/transforms-3/bf22552fcbd9ca16bacc186ec3f353dd/transformed/multidex-2.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.window:window-java:1.0.0-beta04] /Users/sandro/.gradle/caches/transforms-3/f15106001e82d13e80f3f4d08e01b942/transformed/jetified-window-java-1.0.0-beta04/AndroidManifest.xml:17:1-23:12
 MERGED from [androidx.window:window:1.0.0-beta04] /Users/sandro/.gradle/caches/transforms-3/2ffb0360d83bab6ed7665e63bcb66d04/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:17:1-33:12
@@ -137,6 +138,8 @@ MERGED from [:firebase_core] /Users/sandro/Desktop/2022/25MOB/Flutter/GameWikiAp
 MERGED from [:firebase_core] /Users/sandro/Desktop/2022/25MOB/Flutter/GameWikiApp/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:google_sign_in_android] /Users/sandro/Desktop/2022/25MOB/Flutter/GameWikiApp/build/google_sign_in_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:google_sign_in_android] /Users/sandro/Desktop/2022/25MOB/Flutter/GameWikiApp/build/google_sign_in_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:flutter_native_splash] /Users/sandro/Desktop/2022/25MOB/Flutter/GameWikiApp/build/flutter_native_splash/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:flutter_native_splash] /Users/sandro/Desktop/2022/25MOB/Flutter/GameWikiApp/build/flutter_native_splash/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.multidex:multidex:2.0.0] /Users/sandro/.gradle/caches/transforms-3/bf22552fcbd9ca16bacc186ec3f353dd/transformed/multidex-2.0.0/AndroidManifest.xml:20:5-43
 MERGED from [androidx.multidex:multidex:2.0.0] /Users/sandro/.gradle/caches/transforms-3/bf22552fcbd9ca16bacc186ec3f353dd/transformed/multidex-2.0.0/AndroidManifest.xml:20:5-43
 MERGED from [androidx.window:window-java:1.0.0-beta04] /Users/sandro/.gradle/caches/transforms-3/f15106001e82d13e80f3f4d08e01b942/transformed/jetified-window-java-1.0.0-beta04/AndroidManifest.xml:19:5-21:41
